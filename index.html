@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Creative AI Poem Generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>Creative AI Poem Generator</h1>
       </header>
       <main>
-        <form action="">
+        <form action="" id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the creative poem"
@@ -23,9 +24,8 @@
           />
           <input type="submit" class="submit-button"/>
         </form>
-        <div class="poem">
-          Poem displayed header
-          <br />
+        <div class="poem" id="poem">
+            <em>Your creative poem will be displayed here after you submit a topic in the box above.</em>
         </div>
       </main>
 
