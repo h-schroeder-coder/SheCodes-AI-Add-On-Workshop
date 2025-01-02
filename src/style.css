@@ -55,6 +55,7 @@ form {
     background-color: #FE4D75;
     border-radius: 10px;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    text-align: center;
     
 
 }
@@ -65,7 +66,7 @@ main {
 
 footer {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
     margin: 10px;
     font-size: 14px;
 }

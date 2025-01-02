@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Creative AI Poem Generator</title>
   </head>
   <body>
@@ -21,11 +22,15 @@
             required
             autocomplete="off"
             class="instructions"
+            id="user-input"
           />
-          <input type="submit" class="submit-button"/>
+          <input type="submit" class="submit-button" />
         </form>
         <div class="poem" id="poem">
-            <em>Your creative poem will be displayed here after you submit a topic in the box above.</em>
+          <em
+            >***Your creative poem will be displayed here after you submit a topic
+            in the box above.***</em
+          >
         </div>
       </main>
 
