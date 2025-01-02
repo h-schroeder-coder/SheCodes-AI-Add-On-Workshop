@@ -14,6 +14,13 @@ function generatePoem(event) {
 
     let userInput = document.querySelector("#user-input");
 
+    new Typewriter("#poem", {
+      strings: `Your poem is being generated now... please wait`,
+      cursor: "",
+      autoStart: true,
+      delay: 2,
+    });
+
     let apiKey = "dfc9t54e5b10fea0dcae14f3826ob4e6";
     let prompt = `Your instructions are to write a short, cute, and creative Haiki style poem with a title based off of the topic "${userInput.value}" submitted that is fitting for all audiences. The poem must be provided in HTML format, example: <p> <h2> Poem Title </h2> This poem </br> has multiple lines </br> inserted here</p>. Do not allow any html characters to appear in the final text and sign the poem with "~Written by SheCodes AI" inside a <strong> element on a new line after the poem`;
     let context =

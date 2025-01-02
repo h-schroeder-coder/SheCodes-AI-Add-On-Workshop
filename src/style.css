@@ -15,14 +15,21 @@ h1 {
     text-align: center;
 }
 
-form {
-    display: flex;
+.form-container {
     margin: 0 auto;
     padding: 30px;
     background-color: #91CBA0;
     border-radius: 10px;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-       
+}
+
+form {
+    display: flex;
+}
+
+.hints {
+    margin-left: 20px;
+    font-size: smaller;
 }
 
 .instructions {
