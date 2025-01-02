@@ -1,3 +1,17 @@
 body {
     background: #f1e759; 
 }
+
+h1 {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer a {
+    color: blue;
+}
