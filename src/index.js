@@ -18,7 +18,7 @@ function generatePoem(event) {
       strings: `Your poem is being generated now... please wait`,
       cursor: "",
       autoStart: true,
-      delay: 2,
+      delay: 30,
     });
 
     let apiKey = "dfc9t54e5b10fea0dcae14f3826ob4e6";
